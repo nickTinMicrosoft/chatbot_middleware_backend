@@ -1,0 +1,43 @@
+# Ignore Python virtual environments
+backend/.venv/
+middleware/.venv/
+
+# Ignore environment variable files
+backend/.env
+middleware/.env
+
+# VS Code settings (optional)
+.vscode/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# macOS and Windows junk files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IDE settings
+.idea/
+*.swp
+
+# Node modules (if any Node stuff used in middleware)
+middleware/node_modules/
+
+# Uvicorn or other runtime artifacts
+*.pid
+*.db
+
+# Coverage/test output
+htmlcov/
+.coverage
+.cache/
+pytest_cache/
