@@ -1,0 +1,2 @@
+BACKEND_API_URL=http://localhost:5000/api/handle #url to backend
+PORT=3978 #port for middleware
